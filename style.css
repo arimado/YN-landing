@@ -196,18 +196,58 @@ nav a:focus {
 		font-weight: 100;
 	}
 
-.body-text {
-	font-weight: 500;
-	font-family: 'Lato';
-	font-size: 20px;
-	letter-spacing: 2px;
-	width: 600px;
-	margin: auto;
-	line-height: 30px;
-	margin-top: 50px;
-	margin-bottom: 100px;
-	text-align: center;
+.mainBody {
+	margin: 100px 0 0 0;
 }
+
+	.mainBody a {
+		text-decoration: none;
+		color: white;
+		text-transform: uppercase;
+		display: block;
+		border: 3px solid white;
+		border-radius: 100px;
+		padding: 20px;
+		margin: 0 20px 0 20px;
+		font-weight: bold;
+		letter-spacing: 2px;
+	}
+
+		.mainBody a:hover {
+			background: black;
+			border-color: black; 
+			color: white;
+		}
+	
+	.mainBody-section {
+		float: left;
+		width: 50%; 
+		height: 200px;
+	}
+
+		.mainBody-left {
+
+		}
+
+		.mainBody-right {
+
+		}
+
+			.getNotifiedBox {
+				float: right;
+			}
+
+				.getNotifiedLink {
+
+				}
+
+			.joinTeamLink {
+				float: left;
+
+			}
+
+
+
 
 #infoIcon {
 	margin-left: 4px;
