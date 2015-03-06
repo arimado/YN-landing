@@ -15,6 +15,16 @@ $(document).ready(function(){
 	  $(".about-us").fadeToggle( "fast", "linear" );
 	});
 	console.log('hu');
+
+	$('.getNotifiedLink').click(function() {
+		$('.getNotifiedLink').animate({opacity: 0, "z-index":"-100"}, 200, function(){
+		});
+		$('.getNotifiedForm').animate({width: "+=88", opacity: 1}, 500, function(){
+		}); 
+		$('.social-button').fadeIn("fast");
+	});
+
+
 });
 
 var gif_bgs 	= [];
@@ -70,8 +80,6 @@ function toggleSound(){
 		audio.muted = muted;
 		$("#sound-btn").addClass('muted');
 	}
-	
-
 }
 function init() {
 	
